@@ -1,7 +1,14 @@
 body {
     background: #2C2141;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
 }
 
-main {
+.card {
     background: #F8F8F8;
+    border-radius: 16px;
+    padding: 32px;
 }
