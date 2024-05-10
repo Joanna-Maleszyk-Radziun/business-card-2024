@@ -11,12 +11,27 @@ body {
 .card {
     background: #F8F8F8;
     border-radius: 16px;
-    padding: 32px;
+    flex-basis: 616px;
 }    
+
+.card__content {
+    padding: 32px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+
+}
 
 .card__description {
     line-height: 22px;
     margin: 0;
+}
+
+.card__info {
+    flex-basis: 380px;
+    flex-grow: 1;
 }
 
 .card__link {
